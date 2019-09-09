@@ -77,3 +77,11 @@ console.log(selectionSort(listTwo));  // [ 1, 1, 1, 1, 1, 2, 3 ]
 #### 时间复杂度
 
 O(n x n)
+
+#### 可视化链接
+
+https://algorithm-visualizer.org/brute-force/selection-sort
+
+#### 测试链接
+因为 leetcode 测试用例很多，所以在 leetcode 测试通过就行了:
+https://leetcode-cn.com/problems/sort-an-array/

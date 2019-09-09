@@ -70,3 +70,10 @@ console.log(binarySearch(list, 6)); // -1
 #### 时间复杂度
 
 O(log n)
+
+#### 可视化链接
+https://algorithm-visualizer.org/branch-and-bound/binary-search
+
+#### 测试链接
+因为 leetcode 测试用例很多，所以在 leetcode 测试通过就行了:
+https://leetcode-cn.com/problems/binary-search/solution/
