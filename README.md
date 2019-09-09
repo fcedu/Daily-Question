@@ -7,7 +7,9 @@
 
 ### 基础算法
 
-[基础算法之二分查找 20190908](https://github.com/fcedu/Daily-Question/issues/1)
+[基础算法：二分查找 20190908](https://github.com/fcedu/Daily-Question/issues/1)
+
+[基础算法：选择排序 20190909](https://github.com/fcedu/Daily-Question/issues/2)
 
 
 
