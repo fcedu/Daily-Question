@@ -1,0 +1,14 @@
+{
+  "name": "Daily-Question",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fcedu/Daily-Question.git",
+  "author": "taozhi <taozhi1028@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@fcedu/eslint-config-fcedu": "^0.0.5",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-alloy": "^3.0.0"
+  }
+}
