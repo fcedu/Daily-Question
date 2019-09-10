@@ -11,6 +11,8 @@
 
 [基础算法：选择排序 20190909](https://github.com/fcedu/Daily-Question/issues/2)
 
+[基础算法：快速排序 20190910](https://github.com/fcedu/Daily-Question/issues/3)
+
 
 
 ## 关于我们
