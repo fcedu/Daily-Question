@@ -13,6 +13,8 @@
 
 [基础算法：快速排序 20190910](https://github.com/fcedu/Daily-Question/issues/3)
 
+[基础算法：归并排序 20190911](https://github.com/fcedu/Daily-Question/issues/4)
+
 
 
 ## 关于我们
