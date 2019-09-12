@@ -15,6 +15,7 @@
 
 [基础算法：归并排序 20190911](https://github.com/fcedu/Daily-Question/issues/4)
 
+[基础算法：冒泡排序 20190912](https://github.com/fcedu/Daily-Question/issues/5)
 
 
 ## 关于我们
