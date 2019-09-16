@@ -17,6 +17,8 @@
 
 [基础算法：冒泡排序 20190912](https://github.com/fcedu/Daily-Question/issues/5)
 
+[基础算法：桶 排 序 20190916](https://github.com/fcedu/Daily-Question/issues/6)
+
 
 ## 关于我们
 
