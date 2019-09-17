@@ -1,7 +1,9 @@
 # Daily-Question
 
 不积跬步，无以至千里。不积小流，无以成江海。
+
 丰橙学院，每天一个问题，强化基础。
+
 
 ## 题目汇总
 
@@ -18,6 +20,8 @@
 [基础算法：冒泡排序 20190912](https://github.com/fcedu/Daily-Question/issues/5)
 
 [基础算法：桶 排 序 20190916](https://github.com/fcedu/Daily-Question/issues/6)
+
+[基础算法：计数排序 20190917](https://github.com/fcedu/Daily-Question/issues/7)
 
 
 ## 关于我们
