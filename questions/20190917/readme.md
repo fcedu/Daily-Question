@@ -66,7 +66,7 @@ O(n + k)
 
 
 #### 可视化链接
-https://algorithm-visualizer.org/divide-and-conquer/bucket-sort
+https://algorithm-visualizer.org/divide-and-conquer/counting-sort
 
 
 #### 测试链接
