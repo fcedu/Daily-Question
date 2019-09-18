@@ -1,6 +1,6 @@
 ### 问题
 
-给定下面的数组，请使用 [计数排序] (https://zh.wikipedia.org/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F) 算法使其按从小到大的顺序排列？
+给定下面的数组，请使用 [计数排序](https://zh.wikipedia.org/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F) 算法使其按从小到大的顺序排列？
 
 ```javascript
 const list = [1, 7, 9, 8, 3, 2, 10];
