@@ -11,15 +11,17 @@ function insertionSort (list) {
         let temp = localList[i];
         let j = i - 1;
 
-        // 如果该元素大于待排序的元素
+        // 对已排序元素从后往前逐个取出
+        // 如果取出的元素大于新元素
         while (localList[j] > temp) {
 
-            // 则讲该元素移到靠后的位置
+            // 则将取出的元素移到靠后的位置
             localList[j + 1] = localList[j];
             j--;
         }
 
-        // 将新元素插入到其在当前已排序元素中的位置
+        // 将新元素插入到其在当前已排序元素中
+        // j + 1 位置就是对已排序元素比较完成之后确定的位置
         localList[j + 1] = temp;
     }
 
