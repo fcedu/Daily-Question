@@ -25,6 +25,8 @@
 
 [基础算法：基数排序 20190918](https://github.com/fcedu/Daily-Question/issues/8)
 
+[基础算法：插入排序 20190919](https://github.com/fcedu/Daily-Question/issues/9)
+
 
 ## 关于我们
 
