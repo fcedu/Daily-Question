@@ -27,47 +27,41 @@ const list = [1, 7, 9, 8, 3, 2, 10];
 ### 丰橙解答
 
 ```javascript
-
-
 /**
- * 插入排序
- * @param {Array} list 待排序数组
+ * 希尔排序
+ * @param {Array} list 
  */
-function insertionSort (list) {
-    const localList = list.splice(0);
+function shellSort (list) {
 
-    // 每次取出一个数据，和已排序的元素进行比较
-    for (let i = 1; i < localList.length; i++) {
-        let temp = localList[i];
-        let j = i - 1;
+    // 简单的使用 希尔增量 作为增量序列
+    for (let gap = list.length >> 1; gap > 0; gap >>= 1) {
 
-        // 对已排序元素从后往前逐个取出
-        // 如果取出的元素大于新元素
-        while (localList[j] > temp) {
-
-            // 则将取出的元素移到靠后的位置
-            localList[j + 1] = localList[j];
-            j--;
+        // 使用 gap 对数据进行分组
+        // 对组内数据进行排序
+        // 当 gap 回归到 1 时，其实就是 插入排序了，完成插入排序也就完成整个排序操作
+        for (let i = gap; i < list.length; i++) {
+            let temp = list[i];
+            let j;
+            for (j = i - gap; j >= 0 && list[j] > temp; j -= gap) {
+                list[j + gap] = list[j];
+            }
+            list[j + gap] = temp;
         }
-
-        // 将新元素插入到其在当前已排序元素中
-        // j + 1 位置就是对已排序元素比较完成之后确定的位置
-        localList[j + 1] = temp;
     }
 
-    return localList;
+    return list;
 }
 
 
 // test
 const list = [1, 7, 9, 8, 3, 2, 10];
-console.log(insertionSort(list)); // [ 1, 2, 3, 7, 8, 9, 10 ]
+console.log(shellSort(list)); // [ 1, 2, 3, 7, 8, 9, 10 ]
 
 
 ```
 
 #### 时间复杂度
-O(n x n)
+和增量相关，看 [wiki](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F)
 
 
 #### 可视化链接
